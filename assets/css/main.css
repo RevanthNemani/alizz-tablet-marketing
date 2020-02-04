@@ -6,6 +6,80 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
+div.currentAccount {
+	content: url("../images/currentAccount.png");
+	width: 80px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.savingsAccount {
+	content: url("../images/savingsAccount.png");
+	width: 80px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.bushraAccount {
+	content: url("../images/bushraAccount.png");
+	width: 80px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.half-left {
+	float: left;
+	width: 50%;
+}
+
+.eng {
+	float: left;
+	font-size: 11pt;
+}
+
+.arb {
+	float: right;
+	font-size: 13pt;
+}
+
+.half-right {
+	float: right;
+	width: 50%;
+}
+
+#footer > .inner .menu {
+	text-align: right !important;
+    color: #3b7cb4af !important;
+}
+
+#footer > .inner {
+	background-image: url("../images/footer.PNG");
+    height: 90px;
+    padding: 30px;
+}
+
+#sidebar > .inner {
+	text-align: center !important;
+}
+
+#sidebar > .h3 {
+	color: #ffffff;
+}
+
+.parts5 {
+	padding: 0.6em;
+	width: 20%;
+	height: 50%;
+}
+
+.p5 {
+	height: 50%;
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -22,7 +96,10 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+	scroll-snap-type: y mandatory;
+}
+
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -115,7 +192,7 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: rgba(255, 255, 255, 0.55);
+		color: #81b2ee;
 		font-family: Arial, Helvetica, sans-serif;
 		font-size: 16.5pt;
 		font-weight: normal;
@@ -175,6 +252,20 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
+		color: #2b5797;
+		font-weight: bold;
+		line-height: 1.5;
+		margin: 0 0 0.5em 0;
+	}
+
+	h1, h2, h4, h5, h6 {
+		color: #2b5797;
+		font-weight: bold;
+		line-height: 1.5;
+		margin: 0 0 0.5em 0;
+	}
+
+	h3 {
 		color: #ffffff;
 		font-weight: bold;
 		line-height: 1.5;
@@ -1835,7 +1926,7 @@ input, select, textarea {
 		border: solid 1px !important;
 		border-color: rgba(255, 255, 255, 0.15) !important;
 		border-radius: 3em;
-		color: #ffffff !important;
+		color: #4784e6 !important;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.6em;
@@ -2295,7 +2386,7 @@ input, select, textarea {
 		}
 
 	label {
-		color: #ffffff;
+		color: #81b2ee;
 		font-weight: bold;
 		line-height: 1.5;
 		margin: 0 0 0.7em 0;
@@ -2313,16 +2404,21 @@ input, select, textarea {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background: rgba(255, 255, 255, 0.05);
-		border-radius: 0.25em;
+		background: #ffffff00;
+		border-radius: 0.0em;
 		border: none;
-		border: solid 1px rgba(255, 255, 255, 0.15);
-		color: inherit;
+		border: solid 0px rgba(255, 255, 255, 0.15);
+		color: #010b1a;
 		display: block;
 		outline: 0;
-		padding: 0 1em;
+		padding: 0 0em;
 		text-decoration: none;
 		width: 100%;
+		border-bottom: 2px solid #81b2ee;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 14pt;
+		font-weight: normal;
+		line-height: 1.75;
 	}
 
 		input[type="text"]:invalid,
@@ -2342,6 +2438,7 @@ input, select, textarea {
 		textarea:focus {
 			border-color: #ffffff;
 			box-shadow: 0 0 0 1px #ffffff;
+			border-bottom: 2px solid #81b2ee;
 		}
 
 	select {
@@ -2550,6 +2647,11 @@ input, select, textarea {
 		.image img {
 			border-radius: 0.25em;
 			display: block;
+			width: 50px;
+			height: auto;
+			margin-left: auto;
+			margin-right: auto;
+			text-align: center;
 		}
 
 		.image.left, .image.right {
@@ -3226,27 +3328,27 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background-color: #ffffff;
 		}
 
 		.wrapper.style1-alt {
-			background-color: #493382;
+			background-color: #ffffff;
 		}
 
 		.wrapper.style2 {
-			background-color: #5052b5;
+			background-color: #ffffff;
 		}
 
 		.wrapper.style2-alt {
-			background-color: #3e4094;
+			background-color: #ffffff;
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-color: #ffffff;
 		}
 
 		.wrapper.style3-alt {
-			background-color: #953d75;
+			background-color: #ffffff;
 		}
 
 		.wrapper.fullscreen {
@@ -3353,7 +3455,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #5e42a6;
+		background-color: #2b5897;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
@@ -3507,7 +3609,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		background: #2b5897;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3546,8 +3648,10 @@ input, select, textarea {
 			width: 100%;
 		}
 
+		
+
 			body.is-ie #sidebar > .inner {
-				height: 100%;
+				height: 50%;
 			}
 
 		#sidebar nav > ul {
@@ -3744,14 +3848,14 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:before {
-				background: #3c2c62;
+				background: #486997;
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #2b5897, #6184af);
+				background-image: -webkit-linear-gradient(to right, #2b5897, #6184af);
+				background-image: -ms-linear-gradient(to right, #2b5897, #6184af);
+				background-image: linear-gradient(to right, #2b5897, #6184af);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3890,3 +3994,4 @@ input, select, textarea {
 			}
 
 		}
+
